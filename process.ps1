@@ -102,7 +102,7 @@ Get-ChildItem -Path $basePath -r -Include $Include | ForEach-Object {
 	} else {
 		$text = Get-Content $filePath -Encoding Byte -ReadCount 0
 		# ugly hack: if not utf-8 then consider ASCII
-		$text = [System.Text.Encoding]::GetEncoding(1251).GetString($text)
+		$text = [System.Text.Encoding]::GetEncoding(1252).GetString($text)
 	}
 
 	# Update file header/comments
