@@ -1,6 +1,8 @@
 # Overview
 PowerShell script for executing different tasks with source files (fix encoding, add/remove header and comments).
 
+Converts string from windows-1252 (cp1252) to unicode (utf8).
+
 
 USAGE:
 ``` 
