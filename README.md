@@ -6,7 +6,6 @@ USAGE:
 ``` 
 powershell.exe ./process.ps1 [-basePath <path>] 
 	[-include <filesmask-list>] 
-	[-convertEncoding <encoding>] 
 	[-addHeader <path>] 
 	[-fixEncoding]
 	[-useBom]
